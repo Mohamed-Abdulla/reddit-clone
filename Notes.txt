@@ -1,0 +1,31 @@
+This app is powered by Next js,typeScript,Graphql,Supabase,Stepzen and Next-auth.
+
+Next auth is so cool , we can implemet any methods using it.
+
+Here i use postgressSql for the first time.
+
+For that,I use Supabase as database- Supabase is postgress database.
+we can write schema using tables in supabase.
+
+To fetch data from supabase ,we use Graphql query  to get data. for that ,we have Stepzen ,Stepzen is declarative way to write graphql query ,
+ we pass our supabase db to stepzen and it creates all queries . 
+
+To use those backend data in frontend , we have something called apollo client- it allows us to consume data from backend.
+
+By using apollo client , we have to setup and pass stepzen key to apollo client. 
+
+we cover our entire app with appolo client . 
+
+
+Ui ----
+This link is used for creating random avatar based on their name - https://avatars.dicebear.com/api/open-peeps/ seed}.svg
+
+
+For form validation, we use a libray called react-hook-form
+
+for feedback -we use a libray called react-hot toast -{
+    install the libray
+    add toaster (self closing component ) at the top level of ur app
+}
+
+for loaders- we use a libray called uiball loaders
