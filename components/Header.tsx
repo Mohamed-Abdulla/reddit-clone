@@ -47,15 +47,15 @@ const Header = () => {
         <PlusIcon className="icon" />
         <MegaphoneIcon className="icon" />
       </div>
-      <div className="ml-5 flex items-center lg:hidden">
+      {/* <div className="ml-5 flex items-center lg:hidden">
         <Bars3Icon className="icon" />
-      </div>
+      </div> */}
 
       {/* Signin */}
       {session ? (
         <div
           onClick={() => signOut()}
-          className="lg:flex hidden items-center space-x-2 border border-gray-100 p-2 cursor-pointer"
+          className="lg:flex  items-center space-x-2 border border-gray-100 p-2 cursor-pointer"
         >
           <div className="h-5 w-5 relative flex-shrink-0">
             <Image objectFit="contain" src="/logoMini.png" layout="fill" />
@@ -69,7 +69,7 @@ const Header = () => {
       ) : (
         <div
           onClick={() => signIn()}
-          className="hidden lg:flex items-center space-x-2 border border-gray-100 p-2 cursor-pointer"
+          className="ss lg:flex items-center space-x-2 border border-gray-100 p-2 cursor-pointer"
         >
           <div className="h-5 w-5 relative flex-shrink-0">
             <Image objectFit="contain" src="/logoMini.png" layout="fill" />

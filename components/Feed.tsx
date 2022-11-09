@@ -1,6 +1,5 @@
 import { useQuery } from "@apollo/client";
 import { Jelly } from "@uiball/loaders";
-import React from "react";
 import { GET_ALL_POSTS, GET_ALL_POSTS_BY_TOPIC } from "../graphql/queries";
 import Post from "./Post";
 
